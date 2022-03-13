@@ -6,7 +6,7 @@ class Board extends Component {
     return <Square value={i} />;
   }
   render() {
-    const status = "Next Player :";
+    const status = "First Player :";
 
     return (
       <div>
