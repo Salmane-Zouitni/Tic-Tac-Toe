@@ -20,7 +20,6 @@ class Board extends React.Component {
     xIsNext: !this.state.xIsNext,
     });
   }
-  
 
   renderSquare(i) {
     return (
