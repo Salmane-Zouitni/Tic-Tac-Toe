@@ -9,7 +9,7 @@ class Board extends React.Component {
       xIsNext: true,
     };
   }
-
+//this is a comment
   handleClick(i) {
     const squares = this.state.squares.slice();
     if(calculateWinner(squares) || squares[i]){
